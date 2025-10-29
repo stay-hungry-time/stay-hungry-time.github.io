@@ -1,7 +1,7 @@
 ---
 name: Lulu Yu
 cname: 于璐璐
-photo: girl.png
+photo: lulu.jpg
 info: Master 2023-
 research_interests:
   - Unbiased Learning to Rank
