@@ -1,0 +1,65 @@
+"Arxiv":
+  color: "#165DFF"
+
+"ACL":
+  color: "#F25D27"
+
+"ACL (Findings)":
+  color: "#F25D27"
+
+"EMNLP":
+  color: "#F25D27"
+
+"EMNLP (Findings)":
+  color: "#F25D27"
+
+"NAACL":
+  color: "#F25D27"
+  
+"NAACL (Findings)":
+  color: "#F25D27"
+
+"NeurIPS":
+  color: "#F25D27"
+
+"IJCAI":
+  color: "#F25D27"
+
+"ICLR":
+  color: "#F25D27"
+
+"WebConf":
+  color: "#4E52A6"
+
+"WebConf (Short)":
+  color: "#4E52A6"
+
+"CIKM":
+  color: "#4E52A6"
+
+"ICDE":
+  color: "#4E52A6"
+
+"SIGIR":
+  color: "#4E52A6"
+
+"SIGIR-AP":
+  color: "#4E52A6"
+
+"ECIR":
+  color: "#4E52A6"
+
+"KDD":
+  color: "#4E52A6"
+
+"WSDM":
+  color: "#4E52A6"
+
+"CCIR":
+  color: "#4E52A6"
+
+"NTCIR":
+  color: "#4E52A6"
+
+"TOIS":
+  color: "#165DFF"

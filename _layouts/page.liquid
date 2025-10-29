@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post">
+  <header class="post-header" style="text-align: center;">
+    {% if page.title == "news" %}
+      <h1 class="post-title">News 新闻动态</h1>
+    {% elsif page.title == "resources" %}
+      <h1 class="post-title">Resources 资源分享</h1>
+    {% elsif page.title == "contact" %}
+      <h1 class="post-title">Contact 联系我们</h1>
+    {% else %}
+      <h1 class="post-title">{{ page.title | capitalize }}</h1>
+    {% endif %}
+    
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>

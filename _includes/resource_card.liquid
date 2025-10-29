@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card mb-4">
+      <div class="row no-gutters">
+        <div class="col-md-12">
+          <div class="card-body">
+            <h5 class="card-title resource-title">
+              <a href="{{ resource.pdf_link }}" target="_blank" style="color: inherit; text-decoration: none;">
+                {{ resource.title }}
+              </a>
+            </h5>
+            <p class="card-text resource-presenter">
+              <small class="text-muted">
+                {% for presenter in resource.presenter %}
+                  {{ presenter -}}
+                  {%- if forloop.last == false %}, {% endif %}
+                {% endfor %}
+              </small>
+            </p>
+            <p class="card-text resource-date">
+              <small class="text-muted">{{ resource.date | date: "%B %d, %Y" }}</small>
+            </p>
+            <p class="card-text">{{ resource.tldr }}</p>
+
+            {% if resource.slides_link %}
+              <a href="{{ resource.slides_link }}" target="_blank" class="btn btn-primary resource-btn">View Slides</a>
+            {% endif %}
+            {% if resource.blog_link %}
+              <a href="{{ resource.blog_link }}" target="_blank" class="btn btn-secondary resource-btn">View Blog</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
