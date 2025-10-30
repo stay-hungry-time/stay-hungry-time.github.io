@@ -2,7 +2,7 @@
 name: Lulu Yu
 cname: 于璐璐
 photo: lulu.jpg
-info: Master 2023-
+info: Master 2023- , w/ Xueqi Cheng
 research_interests:
   - Unbiased Learning to Rank
 category: master

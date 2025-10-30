@@ -2,7 +2,7 @@
 name: Hengran Zhang
 cname: 张恒然
 photo: hengran.jpg
-info: Ph.D. 2022-
+info: Ph.D. 2022- , w/ Jiafeng Guo
 research_interests:
   - Utility-focused RAG
 category: phd

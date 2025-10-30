@@ -2,7 +2,7 @@
 name: Yuchen Wen
 cname: 文雨晨
 photo: yuchen.jpeg
-info: Ph.D. 2023-
+info: Ph.D. 2023- , w/ Wei Chen
 research_interests:
   - AI Safety
 category: phd

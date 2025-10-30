@@ -2,7 +2,7 @@
 name: Shiyu Ni
 cname: 倪诗宇
 photo: shiyu.jpg
-info: Ph.D. 2023-
+info: Ph.D. 2023- , w/ Jiafeng Guo
 research_interests:
   - LLMs' Knowledge Boundaries
 category: phd

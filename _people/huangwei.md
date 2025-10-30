@@ -2,7 +2,7 @@
 name: Wei Huang
 cname: 黄伟
 photo: huangwei.jpg
-info: Ph.D. 2021-
+info: Ph.D. 2021- , w/ Xueqi Cheng
 research_interests:
   - Source Bias
 category: phd

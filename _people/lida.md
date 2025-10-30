@@ -2,7 +2,7 @@
 name: Da Li
 cname: 李达
 photo: lida.jpg
-info: Ph.D. 2021-
+info: Ph.D. 2021- , w/ Jiafeng Guo
 research_interests:
   - Retrival
 category: phd
