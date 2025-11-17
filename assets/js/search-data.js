@@ -182,6 +182,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/llama-see-llama-do/";
+            },},{id: "resources-onerec-technical-report",
+          title: 'OneRec Technical Report',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/onerec/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
