@@ -187,6 +187,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/onerec/";
+            },},{id: "resources-smarter-retrieval-for-smarter-generation-when-and-how-to-retrieve-for-retrieval-augmented-generation",
+          title: 'Smarter Retrieval for Smarter Generation--When and How to Retrieve for Retrieval-Augmented Generation',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/cikm-keynote/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
