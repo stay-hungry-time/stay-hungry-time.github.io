@@ -142,6 +142,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/yuchen.html";
+            },},{id: "people-yuhan",
+          title: 'Yuhan',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/yuhan.html";
             },},{id: "people-zhikai",
           title: 'Zhikai',
           description: "",
@@ -162,11 +167,36 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/deepseek-r1/";
+            },},{id: "resources-adversarial-ml-problems-are-getting-harder-to-solve-and-to-evaluate",
+          title: 'Adversarial ML Problems Are Getting Harder to Solve and to Evaluate',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/adversarial-ml/";
             },},{id: "resources-parametric-retrieval-augmented-generation",
           title: 'Parametric Retrieval Augmented Generation',
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/prag/";
+            },},{id: "resources-drawing-the-line-enhancing-trustworthiness-of-mllms-through-the-power-of-refusal",
+          title: 'Drawing the Line: Enhancing Trustworthiness of MLLMs Through the Power of Refusal',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/trustworthiness-mllm/";
+            },},{id: "resources-adversarial-attack-survey",
+          title: 'Adversarial Attack Survey',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/adversarial-attack-survey/";
+            },},{id: "resources-learning-dynamics-of-llm-finetuning",
+          title: 'Learning dynamics of LLM finetuning',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/learning-dynamics/";
+            },},{id: "resources-mllms-know-where-to-look-training-free-perception-of-small-visual-details-with-multimodal-llms",
+          title: 'MLLMs Know Where to Look: Training-free Perception of Small Visual Details with Multimodal...',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/mllm-know-where/";
             },},{id: "resources-massive-values-in-self-attention-modules-are-the-key-to-contextual-knowledge-understanding",
           title: 'Massive Values in Self-Attention Modules are the Key to Contextual Knowledge Understanding',
           description: "",
