@@ -152,6 +152,16 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/erag/";
+            },},{id: "resources-deepseek-llm-scaling-open-source-language-models-with-longtermism",
+          title: 'DeepSeek LLM: Scaling Open-Source Language Models with Longtermism',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/deepseek-llm/";
+            },},{id: "resources-deepseek-r1-incentivizing-reasoning-capability-in-llms-via-reinforcement-learning",
+          title: 'DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/deepseek-r1/";
             },},{id: "resources-parametric-retrieval-augmented-generation",
           title: 'Parametric Retrieval Augmented Generation',
           description: "",
