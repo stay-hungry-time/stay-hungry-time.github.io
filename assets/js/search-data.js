@@ -197,11 +197,31 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/mllm-know-where/";
+            },},{id: "resources-redeep-detecting-hallucination-in-retrieval-augmented-generation-via-mechanistic-interpretability",
+          title: 'ReDeEP: Detecting Hallucination in Retrieval-Augmented Generation via Mechanistic Interpretability',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/redeep/";
+            },},{id: "resources-how-do-large-language-models-understand-relevance-a-mechanistic-interpretability-perspective",
+          title: 'How do Large Language Models Understand Relevance? A Mechanistic Interpretability Perspective',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/understand-relevance/";
+            },},{id: "resources-constrained-auto-regressive-decoding-constrains-generative-retrieval",
+          title: 'Constrained Auto-Regressive Decoding Constrains Generative Retrieval',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/constrains-gr/";
             },},{id: "resources-massive-values-in-self-attention-modules-are-the-key-to-contextual-knowledge-understanding",
           title: 'Massive Values in Self-Attention Modules are the Key to Contextual Knowledge Understanding',
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/massive-values/";
+            },},{id: "resources-llm-driven-usefulness-judgment-for-web-search-evaluation",
+          title: 'LLM-Driven Usefulness Judgment for Web Search Evaluation',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/usefulness-judgement/";
             },},{id: "resources-clip-based-fine-grained-image-retrieval-methods",
           title: 'CLIP-Based Fine-Grained Image Retrieval Methods',
           description: "",
@@ -212,11 +232,26 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/cot-monitor/";
+            },},{id: "resources-memory3-language-modeling-with-explicit-memory",
+          title: 'Memory3: Language Modeling with Explicit Memory',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/memory3/";
+            },},{id: "resources-reasoning-about-uncertainty-do-reasoning-models-know-when-they-don-39-t-know",
+          title: 'Reasoning about Uncertainty: Do Reasoning Models Know When They Don&amp;#39;t Know?',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/reasoning-uncertainty/";
             },},{id: "resources-evaluating-implicit-bias-in-large-language-models-by-attacking-from-a-psychometric-perspective",
           title: 'Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective...',
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/implicit-bias/";
+            },},{id: "resources-why-language-models-hallucinate",
+          title: 'Why Language Models Hallucinate',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/why-hallucinate/";
             },},{id: "resources-llama-see-llama-do-a-mechanistic-perspective-on-contextual-entrainment-and-distraction-in-llms",
           title: 'Llama See, Llama Do: A Mechanistic Perspective on Contextual Entrainment and Distraction in...',
           description: "",
