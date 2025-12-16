@@ -267,6 +267,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/cikm-keynote/";
+            },},{id: "resources-does-reinforcement-learning-really-incentivize-reasoning-capacity-in-llms-beyond-the-base-model",
+          title: 'Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?...',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/does-rlvr/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
