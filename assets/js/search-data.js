@@ -260,6 +260,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/llama-see-llama-do/";
+            },},{id: "resources-large-language-diffusion-models-foundations-and-practice",
+          title: 'Large Language Diffusion Models: Foundations and Practice',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/llada/";
             },},{id: "resources-onerec-technical-report",
           title: 'OneRec Technical Report',
           description: "",
