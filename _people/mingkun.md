@@ -2,10 +2,10 @@
 name: Mingkun Zhang
 cname: 张明坤
 photo: mingkun.jpeg
-info: Ph.D. 2020- , w/ Xueqi Cheng
-research_interests:
-  - Adversarial Defense
-category: phd
+info: Ph.D. 2020-
+# research_interests:
+#   - Adversarial Defense
+category: alumni
 year: 2020
 # TODO:
 email: zhangmingkun20z@ict.ac.cn

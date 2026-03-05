@@ -2,10 +2,10 @@
 name: Yuchen Wen
 cname: 文雨晨
 photo: yuchen.jpeg
-info: Ph.D. 2023- , w/ Wei Chen
-research_interests:
-  - AI Safety
-category: phd
+info: Ph.D. 2023-
+# research_interests:
+#   - AI Safety
+category: alumni
 year: 2023
 # TODO:
 email: yuchenwen1@gmail.com
