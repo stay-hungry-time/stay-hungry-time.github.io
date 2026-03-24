@@ -1,13 +1,25 @@
 ---
 ---
-@article{ni2025annotation,
+@inproceedings{libeyond,
+  abbr = {ICLR},
+  title={Beyond Text-Only: Towards Multimodal Table Retrieval in Open-World},
+  author={Li, Da and Bi, Keping and Guo, Jiafeng and Yuan, Wei and Yang, Fan and Gao, Tingting and Cheng, Xueqi},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  
+  year={2026},
+  abstract={Open-domain table retrieval aims to retrieve semantically relevant structured tables from a large-scale corpus in response to natural language queries. Unlike unstructured text, tables store information not only through their textual or numerical content but also through their structural properties, including hierarchical relationships between headers and cells, as well as complex spatial arrangements within the table layout. Existing methods predominantly treat table retrieval as a variant of text retrieval. They struggle to accurately preserve the rich structural semantics of diverse table formats during text serialization. Existing methods typically flatten tables into linear text sequences through row-wise or column-wise serialization, inadvertently discarding structural information. The problem becomes particularly acute when processing complex table layouts containing merged cells or irregular alignments, ultimately compromising retrieval performance. Moreover, existing methods struggle to handle embedded images within table cells. Notably, visual representations inherently preserve both structural and content information while being format-agnostic. This insight motivates our exploration of image-based table retrieval, as it can naturally overcome the challenges faced by existing methods. In this paper, we introduce TaR-ViR (Table Retrieval via Visual Representations), a new benchmark that reformulates table retrieval as a multimodal task by treating tables as images. Experiments on TaR-ViR show that this paradigm shift achieved more effective and efficient retrieval performance. Crucially, it eliminates the need for error-prone text conversion, enabling scalable collection and utilization of open-world tables. Our data are available at https://github.com/Trustworthy-Information-Access/Tab-ViR.},
+  pdf={https://openreview.net/forum?id=4QPgqdQmYn}
+
+}
+
+@inproceedings{niannotation,
   abbr = {ICLR},
 
-  title={Annotation-efficient universal honesty alignment},
-  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Tang, Minghao and Wu, Jingtong and Han, Zengxin and Cheng, Xueqi},
-  journal={arXiv preprint arXiv:2510.17509},
-  year={2026},
+  title={Annotation-Efficient Honesty Alignment via Confidence Elicitation and Calibration},
+  author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Tang, Minghao and Han, Zengxin and Cheng, Xueqi and others},
+  booktitle={The Fourteenth International Conference on Learning Representations},
 
+  year={2026},
   abstract={Honesty alignment-the ability of large language models (LLMs) to recognize their knowledge boundaries and express calibrated confidence-is essential for trustworthy deployment. Existing methods either rely on training-free confidence estimation (e.g., token probabilities, self-consistency) or training-based calibration with correctness annotations. While effective, achieving universal honesty alignment with training-based calibration requires costly, large-scale labeling. To support annotation-efficient training, we introduce Elicitation-Then-Calibration (EliCal), a two-stage framework that first elicits internal confidence using inexpensive self-consistency supervision, then calibrates this confidence with a small set of correctness annotations. To support a large-scale study, we release HonestyBench, a benchmark covering ten free-form QA datasets with 560k training and 70k evaluation instances annotated with correctness and self-consistency signals. Experiments show that EliCal achieves near-optimal alignment with only 1k correctness annotations (0.18% of full supervision) and better alignment performance on unseen MMLU tasks than the calibration-only baseline, offering a scalable solution toward universal honesty alignment in LLMs.},
   pdf={https://arxiv.org/abs/2510.17509}
 }
