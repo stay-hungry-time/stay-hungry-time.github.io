@@ -288,6 +288,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/does-rlvr/";
+            },},{id: "resources-model-merging-in-llms-mllms-and-beyond-methods-theories-applications-and-opportunities",
+          title: 'Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/model-merging/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
