@@ -73,6 +73,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/benben.html";
+            },},{id: "people-hanwen",
+          title: 'Hanwen',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/hanwen.html";
             },},{id: "people-hengran",
           title: 'Hengran',
           description: "",
@@ -88,6 +93,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/jiahan.html";
+            },},{id: "people-jingping",
+          title: 'Jingping',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jingping.html";
             },},{id: "people-keping",
           title: 'Keping',
           description: "",
