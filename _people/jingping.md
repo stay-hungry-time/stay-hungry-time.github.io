@@ -1,11 +1,11 @@
 ---
-name: Zhikai Ding
-cname: 丁治凯
-photo: boy.png
-info: Intern 2025-2025 (1×EMNLP Findings)
+name: Jingping Yan
+cname: 颜京平
+photo: girl.png
+info: Intern 2026-
 # research_interests:
 #   - TODO
-category: alumni
+category: visiting
 year: 2025
 # TODO:
 # email: bikeping@ict.ac.cn

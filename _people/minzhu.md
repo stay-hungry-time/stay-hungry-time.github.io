@@ -2,10 +2,10 @@
 name: Minzhu Tu
 cname: 涂珉铢
 photo: girl.png
-info: Intern 2025-
+info: Intern 2025-2026 (1×Arxiv)
 # research_interests:
 #   - TODO
-category: visiting
+category: alumni
 year: 2025
 # TODO:
 # email: bikeping@ict.ac.cn

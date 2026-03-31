@@ -1,11 +1,11 @@
 ---
-name: Zhikai Ding
-cname: 丁治凯
+name: Hanwen Cui
+cname: 崔瀚文
 photo: boy.png
-info: Intern 2025-2025 (1×EMNLP Findings)
+info: Intern 2026-
 # research_interests:
 #   - TODO
-category: alumni
+category: visiting
 year: 2025
 # TODO:
 # email: bikeping@ict.ac.cn
