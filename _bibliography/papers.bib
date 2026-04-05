@@ -1,13 +1,40 @@
 ---
 ---
+@article{chen2026reconstructing,
+  abbr = {SIGIR},
+
+  title={Reconstructing Content via Collaborative Attention to Improve Multimodal Embedding Quality},
+  author={Chen, Jiahan and Li, Da and Zhang, Hengran and Cai, Yinqiong and Su, Lixin and Guo, Jiafeng and Shi, Daiting and Yin, Dawei and Bi, Keping},
+  journal={arXiv preprint arXiv:2603.01471},
+  year={2026},
+
+  abstract={Multimodal embedding models, rooted in multimodal large language models (MLLMs), have yielded significant performance improvements across diverse tasks such as retrieval and classification. However, most existing approaches rely heavily on large-scale contrastive learning, with limited exploration of how the architectural and training paradigms of MLLMs affect embedding quality. While effective for generation, the causal attention and next-token prediction paradigm of MLLMs does not explicitly encourage the formation of globally compact representations, limiting their effectiveness as multimodal embedding backbones. To address this, we propose CoCoA, a Content reconstruction pre-training paradigm based on Collaborative Attention for multimodal embedding optimization. Specifically, we restructure the attention flow and introduce an EOS-based reconstruction task, encouraging the model to reconstruct input from the corresponding EOS embeddings. This drives the multimodal model to compress the semantic information of the input into the EOS token, laying the foundations for subsequent contrastive learning. Extensive experiments on MMEB-V1 demonstrate that CoCoA built upon Qwen2-VL and Qwen2.5-VL significantly improves embedding quality. Results validate that content reconstruction serves as an effective strategy to maximize the value of existing data, enabling multimodal embedding models generate compact and informative representations, raising their performance ceiling.},
+  pdf={https://arxiv.org/abs/2603.01471}
+}
+
+
+@article{cui2025attention,
+  abbr = {SIGIR},
+
+  title={Attention Grounded Enhancement for Visual Document Retrieval},
+  author={Cui, Wanqing and Huang, Wei and Guo, Yazhi and Hu, Yibo and Jin, Meiguang and Ma, Junfeng and Bi, Keping},
+  journal={arXiv preprint arXiv:2511.13415},
+  year={2026},
+
+  abstract={Visual document retrieval requires understanding heterogeneous and multi-modal content to satisfy information needs. Recent advances use screenshot-based document encoding with fine-grained late interaction, significantly improving retrieval performance. However, retrievers are still trained with coarse global relevance labels, without revealing which regions support the match. As a result, retrievers tend to rely on surface-level cues and struggle to capture implicit semantic connections, hindering their ability to handle non-extractive queries. To alleviate this problem, we propose a \textbf{A}ttention-\textbf{G}rounded \textbf{RE}triever \textbf{E}nhancement (AGREE) framework. AGREE leverages cross-modal attention from multimodal large language models as proxy local supervision to guide the identification of relevant document regions. During training, AGREE combines local signals with the global signals to jointly optimize the retriever, enabling it to learn not only whether documents match, but also which content drives relevance. Experiments on the challenging ViDoRe V2 benchmark show that AGREE significantly outperforms the global-supervision-only baseline. Quantitative and qualitative analyses further demonstrate that AGREE promotes deeper alignment between query terms and document regions, moving beyond surface-level matching toward more accurate and interpretable retrieval.},
+  pdf={https://arxiv.org/abs/2511.13415}
+}
+
 @inproceedings{libeyond,
   abbr = {ICLR},
+
   title={Beyond Text-Only: Towards Multimodal Table Retrieval in Open-World},
   author={Li, Da and Bi, Keping and Guo, Jiafeng and Yuan, Wei and Yang, Fan and Gao, Tingting and Cheng, Xueqi},
   booktitle={The Fourteenth International Conference on Learning Representations},
-  
   year={2026},
+  
   abstract={Open-domain table retrieval aims to retrieve semantically relevant structured tables from a large-scale corpus in response to natural language queries. Unlike unstructured text, tables store information not only through their textual or numerical content but also through their structural properties, including hierarchical relationships between headers and cells, as well as complex spatial arrangements within the table layout. Existing methods predominantly treat table retrieval as a variant of text retrieval. They struggle to accurately preserve the rich structural semantics of diverse table formats during text serialization. Existing methods typically flatten tables into linear text sequences through row-wise or column-wise serialization, inadvertently discarding structural information. The problem becomes particularly acute when processing complex table layouts containing merged cells or irregular alignments, ultimately compromising retrieval performance. Moreover, existing methods struggle to handle embedded images within table cells. Notably, visual representations inherently preserve both structural and content information while being format-agnostic. This insight motivates our exploration of image-based table retrieval, as it can naturally overcome the challenges faced by existing methods. In this paper, we introduce TaR-ViR (Table Retrieval via Visual Representations), a new benchmark that reformulates table retrieval as a multimodal task by treating tables as images. Experiments on TaR-ViR show that this paradigm shift achieved more effective and efficient retrieval performance. Crucially, it eliminates the need for error-prone text conversion, enabling scalable collection and utilization of open-world tables. Our data are available at https://github.com/Trustworthy-Information-Access/Tab-ViR.},
+  github={https://github.com/Trustworthy-Information-Access/Tab-ViR},
   pdf={https://openreview.net/forum?id=4QPgqdQmYn}
 
 }
@@ -18,9 +45,11 @@
   title={Annotation-Efficient Honesty Alignment via Confidence Elicitation and Calibration},
   author={Ni, Shiyu and Bi, Keping and Guo, Jiafeng and Tang, Minghao and Han, Zengxin and Cheng, Xueqi and others},
   booktitle={The Fourteenth International Conference on Learning Representations},
-
+  
   year={2026},
+
   abstract={Honesty alignment-the ability of large language models (LLMs) to recognize their knowledge boundaries and express calibrated confidence-is essential for trustworthy deployment. Existing methods either rely on training-free confidence estimation (e.g., token probabilities, self-consistency) or training-based calibration with correctness annotations. While effective, achieving universal honesty alignment with training-based calibration requires costly, large-scale labeling. To support annotation-efficient training, we introduce Elicitation-Then-Calibration (EliCal), a two-stage framework that first elicits internal confidence using inexpensive self-consistency supervision, then calibrates this confidence with a small set of correctness annotations. To support a large-scale study, we release HonestyBench, a benchmark covering ten free-form QA datasets with 560k training and 70k evaluation instances annotated with correctness and self-consistency signals. Experiments show that EliCal achieves near-optimal alignment with only 1k correctness annotations (0.18% of full supervision) and better alignment performance on unseen MMLU tasks than the calibration-only baseline, offering a scalable solution toward universal honesty alignment in LLMs.},
+  github={https://github.com/Trustworthy-Information-Access/Annotation-Efficient-Universal-Honesty-Alignment},
   pdf={https://arxiv.org/abs/2510.17509}
 }
 
