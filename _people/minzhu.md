@@ -2,7 +2,7 @@
 name: Minzhu Tu
 cname: 涂珉铢
 photo: girl.png
-info: Intern 2025-2026 (1×Arxiv)
+info: Intern 2025-2026 (1×ACL)
 # research_interests:
 #   - TODO
 category: alumni
