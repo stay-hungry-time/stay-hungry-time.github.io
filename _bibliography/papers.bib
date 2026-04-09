@@ -1,5 +1,43 @@
 ---
 ---
+@article{li2025compression,
+  abbr = {ACL},
+
+  title={Compression then Matching: An Efficient Pre-training Paradigm for Multimodal Embedding},
+  author={Li, Da and Luo, Yuxiao and Bi, Keping and Guo, Jiafeng and Yuan, Wei and Yang, Biao and Wang, Yan and Yang, Fan and Gao, Tingting and Zhou, Guorui},
+  journal={arXiv preprint arXiv:2511.08480},
+
+  year={2026},
+  abstract={Multimodal large language models advance multimodal representation learning by acquiring transferable semantic embeddings, thereby substantially enhancing performance across a range of vision-language tasks, including cross-modal retrieval, clustering, and classification. An effective embedding is expected to comprehensively preserve the semantic content of the input while simultaneously emphasizing features that are discriminative for downstream tasks. Recent approaches demonstrate that MLLMs can be adapted into competitive embedding models via large-scale contrastive learning, enabling the simultaneous optimization of two complementary objectives. We argue that the two aforementioned objectives can be decoupled: a comprehensive understanding of the input facilitates the embedding model in achieving superior performance in downstream tasks via contrastive learning. In this paper, we propose CoMa, a compressed pre-training phase, which serves as a warm-up stage for contrastive learning. Experiments demonstrate that with only a small amount of pre-training data, we can transform an MLLM into a competitive embedding model. CoMa achieves new state-of-the-art results among MLLMs of comparable size on the MMEB, realizing optimization in both efficiency and effectiveness.},
+  pdf={https://arxiv.org/abs/2511.08480},
+}
+
+@misc{tu2026longreasoningchainsinfluence,
+  abbr = {ACL},
+
+  title={How Long Reasoning Chains Influence LLMs' Judgment of Answer Factuality}, 
+  author={Minzhu Tu and Shiyu Ni and Keping Bi},
+  eprint={2604.06756},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  year={2026},
+
+  abstract={Large language models (LLMs) has been widely adopted as a scalable surrogate for human evaluation, yet such judges remain imperfect and susceptible to surface-level biases. One possible reason is that these judges lack sufficient information in assessing answer correctness. With the rise of reasoning-capable models, exposing a generator's reasoning content to the judge provides richer information and is a natural candidate for improving judgment accuracy. However, its actual impact on judge behavior remains understudied. In this paper, we systematically investigate how access to reasoning chains affects LLM-based judgment across factual question answering (QA) and mathematical reasoning benchmarks. We find that weak judges are easily swayed by reasoning presence, frequently accepting incorrect answers accompanied by fluent reasoning, while strong judges can partially leverage reasoning as informative evidence. Nevertheless, even strong judges are misled by seemingly high-quality reasoning chains. Controlled experiments further reveal that both fluency and factuality of reasoning chains are critical signals driving judge decisions. These findings highlight the need for more robust LLM judges that can distinguish genuine reasoning quality from superficial fluency when evaluating modern reasoning models.},
+  pdf={https://arxiv.org/abs/2604.06756},
+  github={https://github.com/Trustworthy-Information-Access/Reasoning-Affects-LLM-Judge}
+}
+
+@article{zhang2024iterative,
+  abbr = {ACL (Findings)},
+  title={Iterative utility judgment framework via llms inspired by relevance in philosophy},
+  author={Zhang, Hengran and Bi, Keping and Guo, Jiafeng and Cheng, Xueqi},
+  journal={arXiv preprint arXiv:2406.11290},
+  year={2026},
+
+  abstract={Relevance and utility are two frequently used measures to evaluate the effectiveness of an information retrieval (IR) system. Relevance emphasizes the aboutness of a result to a query, while utility refers to the result's usefulness or value to an information seeker. In Retrieval-Augmented Generation (RAG), high-utility results should be prioritized to feed to LLMs due to their limited input bandwidth. Re-examining RAG's three core components -- relevance ranking derived from retrieval models, utility judgments, and answer generation -- aligns with Schutz's philosophical system of relevances, which encompasses three types of relevance representing different levels of human cognition that enhance each other. These three RAG components also reflect three cognitive levels for LLMs in question-answering. Therefore, we propose an Iterative utiliTy judgmEnt fraMework (ITEM) to promote each step in RAG. We conducted extensive experiments on retrieval (TREC DL, WebAP), utility judgment task (GTI-NQ), and factoid question-answering (NQ) datasets. Experimental results demonstrate significant improvements of ITEM in utility judgments, ranking, and answer generation upon representative baselines.},
+  pdf={https://arxiv.org/abs/2406.11290},
+}
+
 @article{chen2026reconstructing,
   abbr = {SIGIR},
 
