@@ -12,14 +12,12 @@
   pdf={https://arxiv.org/abs/2511.08480},
 }
 
-@misc{tu2026longreasoningchainsinfluence,
+@article{tu2026long,
   abbr = {ACL},
 
-  title={How Long Reasoning Chains Influence LLMs' Judgment of Answer Factuality}, 
-  author={Minzhu Tu and Shiyu Ni and Keping Bi},
-  eprint={2604.06756},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
+  title={How Long Reasoning Chains Influence LLMs' Judgment of Answer Factuality},
+  author={Tu, Minzhu and Ni, Shiyu and Bi, Keping},
+  journal={arXiv preprint arXiv:2604.06756},
   year={2026},
 
   abstract={Large language models (LLMs) has been widely adopted as a scalable surrogate for human evaluation, yet such judges remain imperfect and susceptible to surface-level biases. One possible reason is that these judges lack sufficient information in assessing answer correctness. With the rise of reasoning-capable models, exposing a generator's reasoning content to the judge provides richer information and is a natural candidate for improving judgment accuracy. However, its actual impact on judge behavior remains understudied. In this paper, we systematically investigate how access to reasoning chains affects LLM-based judgment across factual question answering (QA) and mathematical reasoning benchmarks. We find that weak judges are easily swayed by reasoning presence, frequently accepting incorrect answers accompanied by fluent reasoning, while strong judges can partially leverage reasoning as informative evidence. Nevertheless, even strong judges are misled by seemingly high-quality reasoning chains. Controlled experiments further reveal that both fluency and factuality of reasoning chains are critical signals driving judge decisions. These findings highlight the need for more robust LLM judges that can distinguish genuine reasoning quality from superficial fluency when evaluating modern reasoning models.},
