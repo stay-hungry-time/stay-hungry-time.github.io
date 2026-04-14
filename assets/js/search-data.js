@@ -309,6 +309,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/model-merging/";
+            },},{id: "resources-learning-to-retrieve-from-agent-trajectories",
+          title: 'Learning to Retrieve from Agent Trajectories',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/lrat/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
