@@ -2,10 +2,10 @@
 name: Lulu Yu
 cname: 于璐璐
 photo: lulu.jpg
-info: Master 2023- , w/ Xueqi Cheng
-research_interests:
-  - Unbiased Learning to Rank
-category: master
+info: Master 2023-2026 -> Kuaishou
+# research_interests:
+#   - Unbiased Learning to Rank
+category: alumni
 year: 2023
 # TODO:
 email: yululu23s@ict.ac.cn

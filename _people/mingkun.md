@@ -2,7 +2,7 @@
 name: Mingkun Zhang
 cname: 张明坤
 photo: mingkun.jpeg
-info: Ph.D. 2020-
+info: Ph.D. 2020-2026 -> TikTok
 # research_interests:
 #   - Adversarial Defense
 category: alumni
