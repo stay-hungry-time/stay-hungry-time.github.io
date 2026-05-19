@@ -309,6 +309,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/model-merging/";
+            },},{id: "resources-learning-discrete-representations-via-constrained-clustering-for-effective-and-efficient-dense-retrieval",
+          title: 'Learning Discrete Representations via Constrained Clustering for Effective and Efficient Dense Retrieval',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/repconc/";
             },},{id: "resources-learning-to-retrieve-from-agent-trajectories",
           title: 'Learning to Retrieve from Agent Trajectories',
           description: "",
