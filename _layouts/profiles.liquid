@@ -98,9 +98,6 @@ layout: default
       {% assign total_categories = total_categories | plus: 1 %}
     {% endif %}
   {% endfor %}
-  <script>
-    console.log({{ total_categories }})
-  </script>
   {% if total_categories > 0 %}
     <div class="col-md-12">
       <h2 class="text-center">Alumni</h2>
