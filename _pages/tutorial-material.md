@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: tutorial
 title: Tutorial Materials
-permalink: /tutorial/material/
+permalink: /utility-tutorial/material/
 nav: false
 ---
 
@@ -11,7 +11,7 @@ nav: false
     <strong>Beyond Relevance: Utility-Centric Retrieval in the LLM Era</strong> — SIGIR 2026
   </p>
   <p>
-    <a href="{{ '/tutorial/' | relative_url }}">← Back to Tutorial Home</a>
+    <a href="{{ '/utility-tutorial/' | relative_url }}">← Back to Tutorial Home</a>
   </p>
 </div>
 
@@ -27,7 +27,7 @@ nav: false
     <h4 style="margin-bottom: 10px;">Section 1</h4>
     <p style="font-size: 0.9em; color: #666;">Introduction</p>
     <p style="margin-top: 10px;">
-      <a href="TODO" target="_blank">📄 Slides (PDF)</a>
+      <a href="#" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
@@ -35,7 +35,7 @@ nav: false
     <h4 style="margin-bottom: 10px;">Section 2</h4>
     <p style="font-size: 0.9em; color: #666;">LLM-centric Utility in RAG</p>
     <p style="margin-top: 10px;">
-      <a href="TODO" target="_blank">📄 Slides (PDF)</a>
+      <a href="#" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
@@ -43,7 +43,7 @@ nav: false
     <h4 style="margin-bottom: 10px;">Section 3</h4>
     <p style="font-size: 0.9em; color: #666;">Utility Modeling and Optimization Methods</p>
     <p style="margin-top: 10px;">
-      <a href="TODO" target="_blank">📄 Slides (PDF)</a>
+      <a href="#" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
@@ -51,7 +51,7 @@ nav: false
     <h4 style="margin-bottom: 10px;">Section 4</h4>
     <p style="font-size: 0.9em; color: #666;">LLM Information Needs and Agentic RAG</p>
     <p style="margin-top: 10px;">
-      <a href="TODO" target="_blank">📄 Slides (PDF)</a>
+      <a href="#" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
@@ -59,7 +59,7 @@ nav: false
     <h4 style="margin-bottom: 10px;">Section 5</h4>
     <p style="font-size: 0.9em; color: #666;">Conclusions and Future Directions</p>
     <p style="margin-top: 10px;">
-      <a href="TODO" target="_blank">📄 Slides (PDF)</a>
+      <a href="#" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
@@ -81,9 +81,9 @@ nav: false
 
 <!-- TODO: 填入该部分的论文列表 -->
 <ul>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
 </ul>
 
 <!-- ===== Section 2 ===== -->
@@ -91,9 +91,9 @@ nav: false
 
 <!-- TODO: 填入该部分的论文列表 -->
 <ul>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
 </ul>
 
 <!-- ===== Section 3 ===== -->
@@ -101,9 +101,9 @@ nav: false
 
 <!-- TODO: 填入该部分的论文列表 -->
 <ul>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
 </ul>
 
 <!-- ===== Section 4 ===== -->
@@ -111,8 +111,8 @@ nav: false
 
 <!-- TODO: 填入该部分的论文列表 -->
 <ul>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
 </ul>
 
 <!-- ===== Section 5 ===== -->
@@ -120,8 +120,8 @@ nav: false
 
 <!-- TODO: 填入该部分的论文列表 -->
 <ul>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
-  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="TODO" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
+  <li>TODO: Author et al. "Paper Title." <em>Venue, Year.</em> <a href="#" target="_blank">[link]</a></li>
 </ul>
 
 <hr>
@@ -131,17 +131,17 @@ nav: false
 
 <!-- TODO: 如果有开源工具包，在这里添加链接；没有可以删掉这节 -->
 <ul>
-  <li>TODO: <a href="TODO: GitHub link" target="_blank">Toolbox Name</a> — Brief description.</li>
+  <li>TODO: <a href="#">Toolbox Name</a> — Brief description.</li>
 </ul>
 
 <hr>
 
 <div style="text-align: center; padding: 20px 0;">
-  <a href="{{ '/tutorial/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+  <a href="{{ '/utility-tutorial/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
     ← Back to Tutorial Home
   </a>
 </div>
 
 <div style="text-align: center; padding: 10px 0 20px 0; font-size: 0.85em; color: #999;">
-  <a href="https://stay-hungry-time.github.io/">← Back to TIME Group</a>
+  <a href="https://stay-hungry-time.github.io/">TIME Group</a>
 </div>

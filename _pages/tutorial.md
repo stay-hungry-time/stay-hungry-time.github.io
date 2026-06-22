@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: tutorial
 title: Tutorial
-permalink: /tutorial/
+permalink: /utility-tutorial/
 nav: false
 ---
 
@@ -15,7 +15,7 @@ nav: false
     📅 Monday, 20 July 2026, 13:30–17:00 &nbsp;|&nbsp; 📍 Room TBA &nbsp;|&nbsp; <a href="https://sigir2026.org/en-AU/pages/program/accepted-tutorials" target="_blank">SIGIR 2026</a>
   </p>
   <p style="margin-top: 15px;">
-    <a href="{{ '/tutorial/material/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+    <a href="{{ '/utility-tutorial/material/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
       📂 View Materials & Reading List →
     </a>
   </p>
@@ -46,10 +46,54 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
 <hr>
 
+<!-- ==================== SPEAKERS ==================== -->
+<h2 id="speakers">Speakers</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 20px 0;">
+
+  <!-- Speaker 1: Hengran Zhang -->
+  <div style="text-align: center; width: 160px;">
+    <img src="{{ '/assets/img/people/hengran.jpg' | relative_url }}" alt="Hengran Zhang" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="https://hengran.github.io" target="_blank">Hengran Zhang</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+  <!-- Speaker 2: Minghao Tang -->
+  <div style="text-align: center; width: 160px;">
+    <img src="{{ '/assets/img/people/minghao.jpg' | relative_url }}" alt="Minghao Tang" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="https://scholar.google.com/citations?user=FQuHc8oAAAAJ" target="_blank">Minghao Tang</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+  <!-- Speaker 3: Keping Bi -->
+  <div style="text-align: center; width: 160px;">
+    <img src="{{ '/assets/img/people/keping2.jpg' | relative_url }}" alt="Keping Bi" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="https://kepingbi.github.io" target="_blank">Keping Bi</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+  <!-- Speaker 4: Jiafeng Guo -->
+  <div style="text-align: center; width: 160px;">
+    <img src="{{ '/assets/img/people/jiafeng.jpg' | relative_url }}" alt="Jiafeng Guo" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="http://www.bigdatalab.ac.cn/gjf/" target="_blank">Jiafeng Guo</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+</div>
+
+<hr>
+
 <!-- ==================== SCHEDULE ==================== -->
 <h2 id="schedule">Schedule</h2>
 
-<!-- TODO: 确认各section报告人 -->
 <p><em>Format: Half-day (3.5-hour) lecture-style tutorial. Monday, 20 July 2026.</em></p>
 
 <table class="table" style="max-width: 900px; margin: 0 auto;">
@@ -107,61 +151,6 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
 <hr>
 
-<!-- ==================== SPEAKERS ==================== -->
-<h2 id="speakers">Speakers</h2>
-
-<!-- TODO: 替换为真正的 speaker 信息，可以增减人数 -->
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 20px 0;">
-
-  <!-- Speaker 1 -->
-  <div style="text-align: center; width: 160px;">
-    <!-- TODO: 替换为真实头像路径，可放到 assets/img/people/ -->
-    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
-         alt="Hengran Zhang" 
-         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-    <p style="margin: 8px 0 2px 0; font-weight: bold;">
-      <a href="TODO: personal page URL" target="_blank">Hengran Zhang</a>
-    </p>
-    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
-  </div>
-
-  <!-- Speaker 2 -->
-  <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
-         alt="Minghao Tang" 
-         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-    <p style="margin: 8px 0 2px 0; font-weight: bold;">
-      <a href="TODO: personal page URL" target="_blank">Minghao Tang</a>
-    </p>
-    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
-  </div>
-
-  <!-- Speaker 3 -->
-  <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
-         alt="Keping Bi" 
-         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-    <p style="margin: 8px 0 2px 0; font-weight: bold;">
-      <a href="TODO: personal page URL" target="_blank">Keping Bi</a>
-    </p>
-    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
-  </div>
-
-  <!-- Speaker 4 -->
-  <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
-         alt="Jiafeng Guo" 
-         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-    <p style="margin: 8px 0 2px 0; font-weight: bold;">
-      <a href="TODO: personal page URL" target="_blank">Jiafeng Guo</a>
-    </p>
-    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
-  </div>
-
-</div>
-
-<hr>
-
 <!-- ==================== BIBTEX ==================== -->
 <h2 id="bibtex">Citation</h2>
 
@@ -179,11 +168,11 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
 <!-- ==================== FOOTER LINK ==================== -->
 <div style="text-align: center; padding: 20px 0;">
-  <a href="{{ '/tutorial/material/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+  <a href="{{ '/utility-tutorial/material/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
     📂 View Materials & Reading List →
   </a>
 </div>
 
 <div style="text-align: center; padding: 10px 0 20px 0; font-size: 0.85em; color: #999;">
-  <a href="https://stay-hungry-time.github.io/">← Back to TIME Group</a>
+  <a href="https://stay-hungry-time.github.io/">TIME Group</a>
 </div>
