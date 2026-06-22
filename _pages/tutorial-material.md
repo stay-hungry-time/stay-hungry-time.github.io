@@ -70,10 +70,14 @@ nav: false
 <!-- ==================== READING LIST ==================== -->
 <h2 id="reading-list">Reading List</h2>
 
-<!-- TODO: 替换主论文链接 -->
 <p>
   <strong>Main Survey Paper:</strong> 
   <a href="https://arxiv.org/abs/2604.08920" target="_blank">"Beyond Relevance: Utility-Centric Retrieval in the LLM Era"</a> (arXiv: 2604.08920)
+</p>
+
+<p>
+  <strong>Paper Repository:</strong>
+  <a href="https://github.com/hengran/awesome-papers-on-Utility-focused-retrieval-augmented-generation" target="_blank">awesome-papers-on-Utility-focused-RAG</a> (GitHub)
 </p>
 
 <!-- ===== Section 1: Introduction ===== -->
@@ -143,6 +147,8 @@ nav: false
   </a>
 </div>
 
-<div style="text-align: center; padding: 10px 0 20px 0; font-size: 0.85em; color: #999;">
+<div style="text-align: center; padding: 10px 0 30px 0; font-size: 0.85em; color: #999;">
   <a href="https://stay-hungry-time.github.io/">TIME Group</a>
+  &nbsp;|&nbsp;
+  Contact Keping Bi: <a href="mailto:bikeping@ict.ac.cn">bikeping@ict.ac.cn</a>
 </div>

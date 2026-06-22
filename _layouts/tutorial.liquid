@@ -6,14 +6,11 @@
   </head>
 
   <!-- Body (no navbar) -->
-  <body class="{% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body>
     <!-- Content -->
     <div class="container mt-5" role="main">
       {{ content }}
     </div>
-
-    <!-- Footer -->
-    {% include footer.liquid %}
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}

@@ -52,8 +52,8 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 20px 0;">
 
   <!-- Speaker 1: Hengran Zhang -->
-  <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/hengran.jpg' | relative_url }}" alt="Hengran Zhang" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
+  <div style="text-align: center; width: 180px;">
+    <img src="{{ '/assets/img/people/hengran.jpg' | relative_url }}" alt="Hengran Zhang" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="https://hengran.github.io" target="_blank">Hengran Zhang</a>
     </p>
@@ -61,8 +61,8 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
   </div>
 
   <!-- Speaker 2: Minghao Tang -->
-  <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/minghao.jpg' | relative_url }}" alt="Minghao Tang" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
+  <div style="text-align: center; width: 180px;">
+    <img src="{{ '/assets/img/people/minghao.jpg' | relative_url }}" alt="Minghao Tang" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="https://scholar.google.com/citations?user=FQuHc8oAAAAJ" target="_blank">Minghao Tang</a>
     </p>
@@ -70,8 +70,8 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
   </div>
 
   <!-- Speaker 3: Keping Bi -->
-  <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/keping2.jpg' | relative_url }}" alt="Keping Bi" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
+  <div style="text-align: center; width: 180px;">
+    <img src="{{ '/assets/img/people/keping2.jpg' | relative_url }}" alt="Keping Bi" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="https://kepingbi.github.io" target="_blank">Keping Bi</a>
     </p>
@@ -79,8 +79,8 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
   </div>
 
   <!-- Speaker 4: Jiafeng Guo -->
-  <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/jiafeng.jpg' | relative_url }}" alt="Jiafeng Guo" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
+  <div style="text-align: center; width: 180px;">
+    <img src="{{ '/assets/img/people/jiafeng.jpg' | relative_url }}" alt="Jiafeng Guo" style="width: 150px; height: 150px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="http://www.bigdatalab.ac.cn/gjf/" target="_blank">Jiafeng Guo</a>
     </p>
@@ -176,6 +176,8 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
   </a>
 </div>
 
-<div style="text-align: center; padding: 10px 0 20px 0; font-size: 0.85em; color: #999;">
+<div style="text-align: center; padding: 10px 0 30px 0; font-size: 0.85em; color: #999;">
   <a href="https://stay-hungry-time.github.io/">TIME Group</a>
+  &nbsp;|&nbsp;
+  Contact Keping Bi: <a href="mailto:bikeping@ict.ac.cn">bikeping@ict.ac.cn</a>
 </div>
