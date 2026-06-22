@@ -53,7 +53,7 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
   <!-- Speaker 1: Hengran Zhang -->
   <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/hengran.jpg' | relative_url }}" alt="Hengran Zhang" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <img src="{{ '/assets/img/people/hengran.jpg' | relative_url }}" alt="Hengran Zhang" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="https://hengran.github.io" target="_blank">Hengran Zhang</a>
     </p>
@@ -62,7 +62,7 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
   <!-- Speaker 2: Minghao Tang -->
   <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/minghao.jpg' | relative_url }}" alt="Minghao Tang" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <img src="{{ '/assets/img/people/minghao.jpg' | relative_url }}" alt="Minghao Tang" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="https://scholar.google.com/citations?user=FQuHc8oAAAAJ" target="_blank">Minghao Tang</a>
     </p>
@@ -71,7 +71,7 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
   <!-- Speaker 3: Keping Bi -->
   <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/keping2.jpg' | relative_url }}" alt="Keping Bi" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <img src="{{ '/assets/img/people/keping2.jpg' | relative_url }}" alt="Keping Bi" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="https://kepingbi.github.io" target="_blank">Keping Bi</a>
     </p>
@@ -80,7 +80,7 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
   <!-- Speaker 4: Jiafeng Guo -->
   <div style="text-align: center; width: 160px;">
-    <img src="{{ '/assets/img/people/jiafeng.jpg' | relative_url }}" alt="Jiafeng Guo" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <img src="{{ '/assets/img/people/jiafeng.jpg' | relative_url }}" alt="Jiafeng Guo" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
     <p style="margin: 8px 0 2px 0; font-weight: bold;">
       <a href="http://www.bigdatalab.ac.cn/gjf/" target="_blank">Jiafeng Guo</a>
     </p>
@@ -96,8 +96,11 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
 <p><em>Format: Half-day (3.5-hour) lecture-style tutorial. Monday, 20 July 2026.</em></p>
 
-<table class="table" style="max-width: 900px; margin: 0 auto;">
-  <thead>
+<style>
+  table.schedule td:nth-child(3), table.schedule th:nth-child(3) { white-space: nowrap; }
+</style>
+<table class="table schedule" style="max-width: 900px; margin: 0 auto;">
+  <thead style="border-top: 2px solid #dee2e6;">
     <tr>
       <th style="width: 150px;">Time</th>
       <th>Section</th>

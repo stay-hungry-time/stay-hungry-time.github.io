@@ -126,15 +126,16 @@ nav: false
 
 <hr>
 
-<!-- ==================== TOOLBOXES (optional) ==================== -->
+<!-- ==================== TOOLBOXES (optional, currently disabled) ==================== -->
+<!--
 <h2 id="toolboxes">Toolboxes</h2>
 
-<!-- TODO: 如果有开源工具包，在这里添加链接；没有可以删掉这节 -->
 <ul>
   <li>TODO: <a href="#">Toolbox Name</a> — Brief description.</li>
 </ul>
 
 <hr>
+-->
 
 <div style="text-align: center; padding: 20px 0;">
   <a href="{{ '/utility-tutorial/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
