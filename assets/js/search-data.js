@@ -147,6 +147,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/sihui.html";
+            },},{id: "people-wangmiao",
+          title: 'Wangmiao',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/wangmiao.html";
             },},{id: "people-wanqing",
           title: 'Wanqing',
           description: "",
@@ -172,6 +177,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/yuhan.html";
+            },},{id: "people-zhefan",
+          title: 'Zhefan',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/zhefan.html";
             },},{id: "people-zhihui",
           title: 'Zhihui',
           description: "",
