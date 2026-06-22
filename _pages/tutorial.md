@@ -1,0 +1,189 @@
+---
+layout: page
+title: Tutorial
+permalink: /tutorial/
+nav: false
+---
+
+<!-- ==================== HEADER ==================== -->
+<div style="text-align: center; padding: 20px 0 40px 0;">
+  <h1 style="font-size: 2em; margin-bottom: 10px;">Beyond Relevance: Utility-Centric Retrieval in the LLM Era</h1>
+  <p style="font-size: 1.2em; color: #666; margin-bottom: 5px;">
+    Tutorial at <strong>SIGIR 2026</strong>
+  </p>
+  <p style="font-size: 1em; color: #888;">
+    📅 Monday, 20 July 2026, 13:30–17:00 &nbsp;|&nbsp; 📍 Room TBA &nbsp;|&nbsp; <a href="https://sigir2026.org/en-AU/pages/program/accepted-tutorials" target="_blank">SIGIR 2026</a>
+  </p>
+  <p style="margin-top: 15px;">
+    <a href="{{ '/tutorial/material/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+      📂 View Materials & Reading List →
+    </a>
+  </p>
+</div>
+
+<hr>
+
+<!-- ==================== ABOUT ==================== -->
+<h2 id="about">About This Tutorial</h2>
+
+<!-- TODO: 替换为正式的 tutorial 介绍文字 -->
+<p>
+Retrieval-Augmented Generation (RAG) has become a foundational paradigm for enhancing large language models (LLMs) with external knowledge. While traditional information retrieval (IR) systems primarily optimize for <em>relevance</em> — matching queries to documents based on topical similarity — the emergence of LLMs has fundamentally reshaped what makes retrieved information <em>useful</em>.
+</p>
+<p>
+This tutorial explores a paradigm shift from relevance-centric to <strong>utility-centric retrieval</strong>, where the value of retrieved information is measured not by its topical match to a query, but by its actual contribution to downstream LLM tasks. We cover:
+</p>
+<ul>
+  <li><strong>Section 1:</strong> Introduction</li>
+  <li><strong>Section 2:</strong> LLM-centric Utility in RAG</li>
+  <li><strong>Section 3:</strong> Utility Modeling and Optimization Methods</li>
+  <li><strong>Section 4:</strong> LLM Information Needs and Agentic RAG</li>
+  <li><strong>Section 5:</strong> Conclusions and Future Directions</li>
+</ul>
+<p>
+This tutorial aims to generate broader attention to utility-centric retrieval issues in the LLM era, facilitate an understanding of the relevant literature, and lower the barrier to entry for interested researchers and practitioners.
+</p>
+
+<hr>
+
+<!-- ==================== SCHEDULE ==================== -->
+<h2 id="schedule">Schedule</h2>
+
+<!-- TODO: 确认各section报告人 -->
+<p><em>Format: Half-day (3.5-hour) lecture-style tutorial. Monday, 20 July 2026.</em></p>
+
+<table class="table" style="max-width: 900px; margin: 0 auto;">
+  <thead>
+    <tr>
+      <th style="width: 150px;">Time</th>
+      <th>Section</th>
+      <th style="width: 150px;">Presenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background: #f9f9f9;">
+      <td colspan="3" style="font-weight: bold; text-align: center;">First Half (13:30–15:00)</td>
+    </tr>
+    <tr>
+      <td>13:30–14:00</td>
+      <td><strong>Section 1:</strong> Introduction</td>
+      <td>Keping Bi</td>
+    </tr>
+    <tr>
+      <td>14:00–14:50</td>
+      <td><strong>Section 2:</strong> LLM-centric Utility in RAG</td>
+      <td>Keping Bi</td>
+    </tr>
+    <tr>
+      <td>15:00–15:20</td>
+      <td><em>☕ Coffee Break</em></td>
+      <td>—</td>
+    </tr>
+    <tr style="background: #f9f9f9;">
+      <td colspan="3" style="font-weight: bold; text-align: center;">Second Half (15:20–17:00)</td>
+    </tr>
+    <tr>
+      <td>15:20–16:20</td>
+      <td><strong>Section 3:</strong> Utility Modeling and Optimization Methods</td>
+      <td>Hengran Zhang</td>
+    </tr>
+    <tr>
+      <td>16:20–16:40</td>
+      <td><strong>Section 4:</strong> LLM Information Needs and Agentic RAG</td>
+      <td>Keping Bi</td>
+    </tr>
+    <tr>
+      <td>16:40–16:50</td>
+      <td><strong>Section 5:</strong> Conclusions and Future Directions</td>
+      <td>Keping Bi</td>
+    </tr>
+    <tr>
+      <td>16:50–17:00</td>
+      <td>Q & A</td>
+      <td>All</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<!-- ==================== SPEAKERS ==================== -->
+<h2 id="speakers">Speakers</h2>
+
+<!-- TODO: 替换为真正的 speaker 信息，可以增减人数 -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 20px 0;">
+
+  <!-- Speaker 1 -->
+  <div style="text-align: center; width: 160px;">
+    <!-- TODO: 替换为真实头像路径，可放到 assets/img/people/ -->
+    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
+         alt="Hengran Zhang" 
+         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="TODO: personal page URL" target="_blank">Hengran Zhang</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+  <!-- Speaker 2 -->
+  <div style="text-align: center; width: 160px;">
+    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
+         alt="Minghao Tang" 
+         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="TODO: personal page URL" target="_blank">Minghao Tang</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+  <!-- Speaker 3 -->
+  <div style="text-align: center; width: 160px;">
+    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
+         alt="Keping Bi" 
+         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="TODO: personal page URL" target="_blank">Keping Bi</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+  <!-- Speaker 4 -->
+  <div style="text-align: center; width: 160px;">
+    <img src="{{ '/assets/img/people/TODO.jpg' | relative_url }}" 
+         alt="Jiafeng Guo" 
+         style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+    <p style="margin: 8px 0 2px 0; font-weight: bold;">
+      <a href="TODO: personal page URL" target="_blank">Jiafeng Guo</a>
+    </p>
+    <p style="font-size: 0.85em; color: #666; margin: 0;">ICT, CAS</p>
+  </div>
+
+</div>
+
+<hr>
+
+<!-- ==================== BIBTEX ==================== -->
+<h2 id="bibtex">Citation</h2>
+
+<!-- TODO: 替换为正式的 BibTeX -->
+<div style="background: #f5f5f5; padding: 15px 20px; border-radius: 5px; font-family: monospace; font-size: 0.9em; overflow-x: auto;">
+<pre>@article{zhang2026beyond,
+  title={Beyond Relevance: Utility-Centric Retrieval in the LLM Era},
+  author={Zhang, Hengran and Tang, Minghao and Bi, Keping and Guo, Jiafeng},
+  journal={arXiv preprint arXiv:2604.08920},
+  year={2026}
+}</pre>
+</div>
+
+<hr>
+
+<!-- ==================== FOOTER LINK ==================== -->
+<div style="text-align: center; padding: 20px 0;">
+  <a href="{{ '/tutorial/material/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+    📂 View Materials & Reading List →
+  </a>
+</div>
+
+<div style="text-align: center; padding: 10px 0 20px 0; font-size: 0.85em; color: #999;">
+  <a href="https://stay-hungry-time.github.io/">← Back to TIME Group</a>
+</div>
