@@ -6,7 +6,7 @@ info: Intern 2026-
 # research_interests:
 #   - TODO
 category: visiting
-year: 2025
+year: 2026
 # TODO:
 # email: bikeping@ict.ac.cn
 # homepage: https://kepingbi.github.io

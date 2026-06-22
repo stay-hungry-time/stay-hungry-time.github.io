@@ -1,11 +1,11 @@
 ---
-name: Jingping Yan
-cname: 颜京平
+name: Miao Wang
+cname: 王淼
 photo: girl.png
-info: Intern 2026-2026 (1×CCIR Submission)
+info: Intern 2026-
 # research_interests:
 #   - TODO
-category: alumni
+category: visiting
 year: 2026
 # TODO:
 # email: bikeping@ict.ac.cn
