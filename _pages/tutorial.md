@@ -1,6 +1,7 @@
 ---
 layout: tutorial
-title: Tutorial
+title: Utility-Centric Retrieval
+title_only: true
 permalink: /utility-tutorial/
 nav: false
 ---
