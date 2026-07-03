@@ -2,7 +2,7 @@
 name: Jingping Yan
 cname: 颜京平
 photo: girl.png
-info: Intern 2026-2026 (1×CCIR Submission)
+info: Intern 2026-2026 (1×CCIR)
 # research_interests:
 #   - TODO
 category: alumni
