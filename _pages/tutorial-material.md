@@ -186,7 +186,7 @@ nav: false
 </details>
 
 <details>
-<summary><h4 style="display:inline;">2.5 Pointwise, Marginal, and Set-Level Utility</h4></summary>
+<summary><h4 style="display:inline;">2.5 Pointwise and Set-Level Utility</h4></summary>
 
 <p><em>Pointwise Utility</em></p>
 <ul>
@@ -198,6 +198,8 @@ nav: false
 
 <p><em>Set-Level Utility</em></p>
 <ul>
+  <li><a href="https://arxiv.org/abs/2602.00238" target="_blank">DIVERGE: Diversity-Enhanced Retrieval-Augmented Generation for Open-Ended Information Seeking.</a> (Hu et al. 2026.)</li>
+  <li><a href="https://aclanthology.org/2026.findings-eacl.150/">DF-RAG: Query-Aware Diversity for Retrieval-Augmented Generation.</a> (Khan et al. ACL 2026.)</li>
   <li><a href="https://aclanthology.org/2025.ijcnlp-short.37/" target="_blank">Modeling Contextual Passage Utility for Multihop Question Answering.</a> (Jain et al. IJCNLP 2025.)</li>
   <li><a href="https://dl.acm.org/doi/10.1145/3767695.3769496" target="_blank">Distilling a Small Utility-Based Passage Selector to Enhance Retrieval-Augmented Generation.</a> (Zhang et al. SIGIR-AP 2025.)</li>
   <li><a href="https://aclanthology.org/2025.acl-long.861/" target="_blank">Shifting from Ranking to Set Selection for Retrieval Augmented Generation.</a> (Lee et al. ACL 2025.)</li>
