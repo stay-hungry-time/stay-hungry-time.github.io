@@ -158,14 +158,16 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 <!-- ==================== BIBTEX ==================== -->
 <h2 id="bibtex">BibTeX</h2>
 
-<!-- TODO: 替换为正式的 BibTeX -->
 <div style="background: #f5f5f5; padding: 15px 20px; border-radius: 5px; font-family: monospace; font-size: 0.9em; overflow-x: auto;">
-<pre>@article{zhang2026beyond,
+<pre>
+@inproceedings{zhang2026beyond,
   title={Beyond Relevance: Utility-Centric Retrieval in the LLM Era},
   author={Zhang, Hengran and Tang, Minghao and Bi, Keping and Guo, Jiafeng},
-  journal={arXiv preprint arXiv:2604.08920},
+  booktitle={Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={5357--5361},
   year={2026}
-}</pre>
+}
+</pre>
 </div>
 
 <hr>
