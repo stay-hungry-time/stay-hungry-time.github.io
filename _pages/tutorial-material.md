@@ -309,32 +309,32 @@ nav: false
 <details>
 <summary><h4 style="display:inline;">4.2 Query-side Utility</h4></summary>
 <ul>
-  <li>Active Retrieval Augmented Generation. (Jiang et al. EMNLP 2023.)</li>
-  <li>DRAGIN: Dynamic Retrieval Augmented Generation Based on the Real-Time Information Needs of Large Language Models. (ACL 2024.)</li>
-  <li>Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning. (COLM 2025.)</li>
-  <li>AgentIR: Reasoning-Aware Retrieval for Deep Research Agents. (TODO)</li>
-  <li>SubSearch: Intermediate Rewards for Unsupervised Guided Reasoning in Complex Retrieval. (TODO)</li>
+  <li><a href="https://aclanthology.org/2023.emnlp-main.495/" target="_blank">Active Retrieval Augmented Generation.</a> (Jiang et al. EMNLP 2023.)</li>
+  <li><a href="https://aclanthology.org/2024.acl-long.702/" target="_blank">DRAGIN: Dynamic Retrieval Augmented Generation Based on the Real-Time Information Needs of Large Language Models.</a> (Su et al. ACL 2024.)</li>
+  <li><a href="https://openreview.net/forum?id=Rwhi91ideu" target="_blank">Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning.</a> (Jin et al. COLM 2025.)</li>
+  <li><a href="https://arxiv.org/abs/2603.04384" target="_blank">AgentIR: Reasoning-Aware Retrieval for Deep Research Agents.</a> (Chen et al. 2026.)</li>
+  <li><a href="https://arxiv.org/abs/2604.07415" target="_blank">SubSearch: Intermediate Rewards for Unsupervised Guided Reasoning in Complex Retrieval.</a> (Petcu et al. 2026.)</li>
 </ul>
 </details>
 
 <details>
 <summary><h4 style="display:inline;">4.3 Document-side Utility</h4></summary>
 <ul>
-  <li>Revisiting Text Ranking in Deep Research. (SIGIR 2026.)</li>
-  <li>Agentic-R: Learning to Retrieve for Agentic Search. (ACL 2026.)</li>
-  <li>Learning to Retrieve from Agent Trajectories. (SIGIR 2026.)</li>
-  <li>Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems. (ACL 2026.)</li>
+  <li><a href="https://dl.acm.org/doi/10.1145/3805712.3808557" target="_blank">Revisiting Text Ranking in Deep Research.</a> (Meng et al. SIGIR 2026.)</li>
+  <li><a href="https://aclanthology.org/2026.findings-acl.785/" target="_blank">Agentic-R: Learning to Retrieve for Agentic Search.</a> (Liu et al. ACL 2026.)</li>
+  <li><a href="https://dl.acm.org/doi/10.1145/3805712.3809675" target="_blank">Learning to Retrieve from Agent Trajectories.</a> (Zhou et al. SIGIR 2026.)</li>
+  <li><a href="https://aclanthology.org/2026.acl-long.1705/" target="_blank">Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems.</a> (Zhao et al. ACL 2026.)</li>
 </ul>
 </details>
 
 <details>
 <summary><h4 style="display:inline;">4.4 Action-side Utility</h4></summary>
 <ul>
-  <li>StepSearch: Igniting LLMs Search Ability via Step-Wise Proximal Policy Optimization. (EMNLP 2025.)</li>
-  <li>Information Gain-Based Policy Optimization: A Simple and Effective Approach for Multi-Turn Search Agents. (ICLR 2026.)</li>
-  <li>Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models Through Question Complexity. (Jeong et al. NAACL 2024.)</li>
-  <li>Beyond Monolithic Architectures: A Multi-Agent Search and Knowledge Optimization Framework for Agentic Search. (TODO)</li>
-  <li>Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction. (TODO)</li>
+  <li><a href="https://aclanthology.org/2025.emnlp-main.1106/" target="_blank">StepSearch: Igniting LLMs Search Ability via Step-Wise Proximal Policy Optimization.</a> (Zheng et al. EMNLP 2025.)</li>
+  <li><a href="https://openreview.net/forum?id=qkWP6phrvZ" target="_blank">Information Gain-Based Policy Optimization: A Simple and Effective Approach for Multi-Turn Search Agents.</a> (Wang et al. ICLR 2026.)</li>
+  <li><a href="https://aclanthology.org/2024.naacl-long.389/" target="_blank">Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models Through Question Complexity.</a> (Jeong et al. NAACL 2024.)</li>
+  <li><a href="https://arxiv.org/abs/2601.04703" target="_blank">Beyond Monolithic Architectures: A Multi-Agent Search and Knowledge Optimization Framework for Agentic Search.</a> (Chen et al. 2026.)</li>
+  <li><a href="https://arxiv.org/abs/2605.05242" target="_blank">Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction.</a> (Li et al. 2026.)</li>
 </ul>
 </details>
 
