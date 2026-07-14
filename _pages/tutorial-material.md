@@ -18,6 +18,11 @@ nav: false
 
 <hr>
 
+<style>
+  details { margin-bottom: 0.6em; }
+  h3 { margin-top: 1.8em; margin-bottom: 0.6em; }
+</style>
+
 <!-- ==================== SLIDES ==================== -->
 <h2 id="slides">Slides</h2>
 
@@ -223,12 +228,12 @@ nav: false
 <ul>
   <li><a href="https://dl.acm.org/doi/10.1145/3626772.3657784" target="_blank">Are Large Language Models Good at Utility Judgments?</a> (Zhang et al. SIGIR 2024.)</li>
   <li><a href="https://aclanthology.org/2026.findings-acl.1579" target="_blank">An Iterative Utility Judgment Framework via LLMs Inspired by Relevance in Philosophy.</a> (Zhang et al. ACL 2026.)</li>
-  <li>Bridging Relevance and Reasoning: Rationale Distillation in Retrieval-Augmented Generation. (TODO)</li>
+  <li><a href="https://aclanthology.org/2025.findings-acl.220/" target="_blank">Bridging Relevance and Reasoning: Rationale Distillation in Retrieval-Augmented Generation.</a> (Jia et al. ACL 2025.)</li>
 </ul>
 
 <p><em>Signal B: Attention / Reader-Derived Signals (no ground-truth answer required)</em></p>
 <ul>
-  <li>FiD: Distilling Knowledge from Reader to Retriever for Question Answering. (TODO)</li>
+  <li><a href="https://openreview.net/forum?id=NTEz-6wysdb" target="_blank">FiD: Distilling Knowledge from Reader to Retriever for Question Answering.</a> (Izacard et al. ICLR 2021.)</li>
   <li><a href="https://dl.acm.org/doi/10.5555/3648699.3648950" target="_blank">Atlas: Few-shot Learning with Retrieval Augmented Language Models.</a> (Izacard et al. JMLR 2023.)</li>
   <li><a href="https://arxiv.org/abs/2510.11358" target="_blank">LLM-Specific Utility: A New Perspective for Retrieval-Augmented Generation.</a> (Zhang et al. 2025.)</li>
 </ul>
@@ -236,17 +241,17 @@ nav: false
 <p><em>Signal C: Likelihood and Perplexity (ground-truth answer required)</em></p>
 <ul>
   <li><a href="https://aclanthology.org/2024.naacl-long.463" target="_blank">REPLUG: Retrieval-Augmented Black-Box Language Models.</a> (Shi et al. NAACL 2024.)</li>
-  <li>Aligning Dense Retrievers with LLM Utility via Distillation. (TODO)</li>
+  <li><a href="https://arxiv.org/abs/2604.22722" target="_blank">Aligning Dense Retrievers with LLM Utility via Distillation.</a> (Sandhu et al. 2026.)</li>
   <li><a href="https://dl.acm.org/doi/10.5555/3648699.3648950" target="_blank">Atlas: Few-shot Learning with Retrieval Augmented Language Models.</a> (Izacard et al. JMLR 2023.)</li>
-  <li>Predicting Retrieval Utility and Answer Quality in Retrieval-Augmented Generation. (TODO)</li>
-  <li>SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation. (TODO)</li>
-  <li>Utility-Oriented Visual Evidence Selection for Multimodal Retrieval-Augmented Generation. (TODO)</li>
-  <li>Training a Utility-based Retriever Through Shared Context Attribution for Retrieval-Augmented Language Models. (TODO)</li>
+  <li><a href="https://dl.acm.org/doi/10.1007/978-3-032-21289-4_24" target="_blank">Predicting Retrieval Utility and Answer Quality in Retrieval-Augmented Generation.</a> (Tian et al. ECIR 2026.)</li>
+  <li><a href="https://aclanthology.org/2024.emnlp-main.178/" target="_blank">SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation.</a> (Zhao et al. EMNLP 2024.)</li>
+  <li><a href="https://aclanthology.org/2026.acl-long.1620/" target="_blank">Utility-Oriented Visual Evidence Selection for Multimodal Retrieval-Augmented Generation.</a> (Luo et al. ACL 2026.)</li>
+  <li><a href="https://aclanthology.org/2025.emnlp-main.33/" target="_blank">Training a Utility-based Retriever Through Shared Context Attribution for Retrieval-Augmented Language Models.</a> (Xu et al. EMNLP 2025.)</li>
 </ul>
 
 <p><em>Signal D: Downstream Performance (ground-truth answer required)</em></p>
 <ul>
-  <li>METRAG: Similarity Is Not All You Need: Endowing Retrieval-Augmented Generation with Multi-Layered Thoughts. (TODO)</li>
+  <li><a href="https://arxiv.org/abs/2405.19893" target="_blank">Similarity Is Not All You Need: Endowing Retrieval-Augmented Generation with Multi-Layered Thoughts.</a> (Gan et al. 2024.)</li>
   <li><a href="https://arxiv.org/abs/2510.11358" target="_blank">LLM-Specific Utility: A New Perspective for Retrieval-Augmented Generation.</a> (Zhang et al. 2025.)</li>
 </ul>
 </details>
@@ -264,28 +269,28 @@ nav: false
 <p><em>Level 2: Medium Candidate Sets (dozens to hundreds) — Selectors and Rerankers</em></p>
 <ul>
   <li><a href="https://dl.acm.org/doi/10.1145/3767695.3769496" target="_blank">Distilling a Small Utility-Based Passage Selector to Enhance Retrieval-Augmented Generation.</a> (Zhang et al. SIGIR-AP 2025.)</li>
-  <li>Predicting Retrieval Utility and Answer Quality in Retrieval-Augmented Generation. (TODO)</li>
+  <li><a href="https://dl.acm.org/doi/10.1007/978-3-032-21289-4_24" target="_blank">Predicting Retrieval Utility and Answer Quality in Retrieval-Augmented Generation.</a> (Tian et al. ECIR 2026.)</li>
   <li><a href="https://aclanthology.org/2023.findings-emnlp.422/" target="_blank">From Relevance to Utility: Evidence Retrieval with Feedback for Fact Verification.</a> (Zhang et al. EMNLP 2023.)</li>
   <li><a href="https://dl.acm.org/doi/10.1145/3539618.3592049" target="_blank">Read It Twice: Towards Faithfully Interpretable Fact Verification by Revisiting Evidence.</a> (Hu et al. SIGIR 2023.)</li>
   <li><a href="https://aclanthology.org/2025.ijcnlp-short.37/" target="_blank">Modeling Contextual Passage Utility for Multihop Question Answering.</a> (Jain et al. IJCNLP 2025.)</li>
-  <li>Bridging Relevance and Reasoning: Rationale Distillation in Retrieval-Augmented Generation. (TODO)</li>
-  <li>RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards. (TODO)</li>
-  <li>Retrieve What You Need: A Mutual Learning Framework for Open-Domain Question Answering. (TODO)</li>
-  <li>Optimizing RAG Rerankers with LLM Feedback via Reinforcement Learning. (ACL 2026.)</li>
+  <li><a href="https://aclanthology.org/2025.findings-acl.220/" target="_blank">Bridging Relevance and Reasoning: Rationale Distillation in Retrieval-Augmented Generation.</a> (Jia et al. ACL 2025.)</li>
+  <li><a href="https://openreview.net/forum?id=Pnktu2PBXD" target="_blank">RAG-DDR: Optimizing Retrieval-Augmented Generation Using Differentiable Data Rewards.</a> (Li et al. ICLR 2025.)</li>
+  <li><a href="https://aclanthology.org/2024.tacl-1.14/" target="_blank">Retrieve What You Need: A Mutual Learning Framework for Open-Domain Question Answering.</a> (Wang et al. TACL 2024.)</li>
+  <li><a href="https://aclanthology.org/2026.acl-long.1406/" target="_blank">Optimizing RAG Rerankers with LLM Feedback via Reinforcement Learning.</a> (Wu et al. ACL 2026.)</li>
 </ul>
 
 <p><em>Level 3: Corpus-Scale — Utility-Oriented Retrievers</em></p>
 <ul>
-  <li>Utility-Focused LLM Annotation for Retrieval and Retrieval-Augmented Generation. (TODO)</li>
+  <li><a href="https://aclanthology.org/2025.emnlp-main.88/" target="_blank">Utility-Focused LLM Annotation for Retrieval and Retrieval-Augmented Generation.</a> (Zhang et al. EMNLP 2025.)</li>
   <li><a href="https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html" target="_blank">Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.</a> (Lewis et al. NeurIPS 2020.)</li>
-  <li>Stochastic RAG: End-to-End Retrieval-Augmented Generation through Expected Utility Maximization. (SIGIR 2024.)</li>
+  <li><a href="https://dl.acm.org/doi/10.1145/3626772.3657923" target="_blank">Stochastic RAG: End-to-End Retrieval-Augmented Generation through Expected Utility Maximization.</a> (Zamani et al. SIGIR 2024.)</li>
   <li><a href="https://aclanthology.org/2024.naacl-long.463" target="_blank">REPLUG: Retrieval-Augmented Black-Box Language Models.</a> (Shi et al. NAACL 2024.)</li>
-  <li>Aligning Dense Retrievers with LLM Utility via Distillation. (TODO)</li>
-  <li>GripRank: Bridging the Gap between Retrieval and Generation via Generative Knowledge Improved Passage Ranking. (TODO)</li>
-  <li>FiD: Distilling Knowledge from Reader to Retriever for Question Answering. (TODO)</li>
+  <li><a href="https://arxiv.org/abs/2604.22722" target="_blank">Aligning Dense Retrievers with LLM Utility via Distillation.</a> (Sandhu et al. 2026.)</li>
+  <li><a href="https://dl.acm.org/doi/10.1145/3583780.3614901" target="_blank">GripRank: Bridging the Gap between Retrieval and Generation via Generative Knowledge Improved Passage Ranking.</a> (Bai et al. CIKM 2023.)</li>
+  <li><a href="https://openreview.net/forum?id=NTEz-6wysdb" target="_blank">FiD: Distilling Knowledge from Reader to Retriever for Question Answering.</a> (Izacard et al. ICLR 2021.)</li>
   <li><a href="https://dl.acm.org/doi/10.5555/3648699.3648950" target="_blank">Atlas: Few-shot Learning with Retrieval Augmented Language Models.</a> (Izacard et al. JMLR 2023.)</li>
-  <li>Training a Utility-based Retriever Through Shared Context Attribution for Retrieval-Augmented Language Models. (TODO)</li>
-  <li>RRAML: Reinforced Retrieval Augmented Machine Learning. (TODO)</li>
+  <li><a href="https://aclanthology.org/2025.emnlp-main.33/" target="_blank">Training a Utility-based Retriever Through Shared Context Attribution for Retrieval-Augmented Language Models.</a> (Xu et al. EMNLP 2025.)</li>
+  <li><a href="https://arxiv.org/abs/2307.12798" target="_blank">RRAML: Reinforced Retrieval Augmented Machine Learning.</a> (Bacciu et al. 2023.)</li>
 </ul>
 </details>
 
@@ -293,8 +298,8 @@ nav: false
 <summary><h4 style="display:inline;">3.3 Evaluation: What Should We Measure?</h4></summary>
 <ul>
   <li><a href="https://dl.acm.org/doi/10.1145/3626772.3657957" target="_blank">eRAG: Evaluating Retrieval Quality in Retrieval-Augmented Generation.</a> (Salemi et al. SIGIR 2024.)</li>
-  <li>RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora. (TODO)</li>
-  <li>UsefulBench: Towards Decision-Useful Information as a Target for Information Retrieval. (TODO)</li>
+  <li><a href="https://aclanthology.org/2026.acl-long.923/" target="_blank">RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora.</a> (Cho et al. ACL 2026.)</li>
+  <li><a href="https://arxiv.org/abs/2604.15827" target="_blank">UsefulBench: Towards Decision-Useful Information as a Target for Information Retrieval.</a> (Schimanski et al. 2026.)</li>
 </ul>
 </details>
 
