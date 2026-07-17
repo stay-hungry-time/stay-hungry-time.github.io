@@ -118,12 +118,12 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
       <td>Keping Bi</td>
     </tr>
     <tr>
-      <td>14:00–14:50</td>
+      <td>14:00–15:00</td>
       <td><strong>Section 2:</strong> LLM-centric Utility in RAG</td>
       <td>Keping Bi</td>
     </tr>
     <tr>
-      <td>15:00–15:20</td>
+      <td>15:00–15:30</td>
       <td><em>☕ Coffee Break</em></td>
       <td>—</td>
     </tr>
@@ -131,12 +131,12 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
       <td colspan="3" style="font-weight: bold; text-align: center;">Second Half (15:20–17:00)</td>
     </tr>
     <tr>
-      <td>15:20–16:20</td>
+      <td>15:30–16:10</td>
       <td><strong>Section 3:</strong> Utility Modeling and Optimization Methods</td>
       <td>Hengran Zhang</td>
     </tr>
     <tr>
-      <td>16:20–16:40</td>
+      <td>16:10–16:40</td>
       <td><strong>Section 4:</strong> LLM Information Needs and Agentic RAG</td>
       <td>Keping Bi</td>
     </tr>
