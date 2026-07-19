@@ -13,7 +13,7 @@ nav: false
     Tutorial at <strong>SIGIR 2026</strong>
   </p>
   <p style="font-size: 1em; color: #888;">
-    📅 Monday, 20 July 2026, 13:30–17:00 &nbsp;|&nbsp; 📍 Room TBA &nbsp;|&nbsp; <a href="https://sigir2026.org/en-AU/pages/program/accepted-tutorials" target="_blank">SIGIR 2026</a>
+    📅 Monday, 20 July 2026, 13:30–17:00 &nbsp;|&nbsp; <a href="https://sigir2026.org/en-AU/pages/program/accepted-tutorials" target="_blank">SIGIR 2026</a>
   </p>
   <p style="margin-top: 15px;">
     <a href="{{ '/utility-tutorial/material/' | relative_url }}" style="display: inline-block; background: #3b5998; color: #fff; padding: 10px 28px; border-radius: 5px; text-decoration: none; font-weight: bold;">
@@ -128,7 +128,7 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
       <td>—</td>
     </tr>
     <tr style="background: #f9f9f9;">
-      <td colspan="3" style="font-weight: bold; text-align: center;">Second Half (15:20–17:00)</td>
+      <td colspan="3" style="font-weight: bold; text-align: center;">Second Half (15:30–17:00)</td>
     </tr>
     <tr>
       <td>15:30–16:10</td>

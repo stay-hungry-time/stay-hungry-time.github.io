@@ -61,6 +61,14 @@ nav: false
     </p>
   </div>
 
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center;">
+    <h4 style="margin-bottom: 10px;">Section 5</h4>
+    <p style="font-size: 0.9em; color: #666;">Conclusions and Future Directions</p>
+    <p style="margin-top: 10px;">
+      <a href="#" target="_blank">📄 Slides (PDF)</a>
+    </p>
+  </div>
+
 </div>
 
 <hr>
