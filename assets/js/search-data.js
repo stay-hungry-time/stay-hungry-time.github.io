@@ -332,6 +332,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/lrat/";
+            },},{id: "resources-beyond-relevance-utility-centric-retrieval-in-the-llm-era",
+          title: 'Beyond Relevance: Utility-Centric Retrieval in the LLM Era',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/utility-tutorial/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
