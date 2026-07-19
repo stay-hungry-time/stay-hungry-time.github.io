@@ -77,8 +77,8 @@ nav: false
 <h2 id="reading-list">Reading List</h2>
 
 <p>
-  <strong>Main Survey Paper:</strong> 
-  <a href="https://arxiv.org/abs/2604.08920" target="_blank">"Beyond Relevance: Utility-Centric Retrieval in the LLM Era"</a> (arXiv: 2604.08920)
+  <strong>Tutorial Proposal:</strong> 
+  <a href="https://arxiv.org/abs/2604.08920" target="_blank">"Beyond Relevance: Utility-Centric Retrieval in the LLM Era"</a>
 </p>
 
 <p>
