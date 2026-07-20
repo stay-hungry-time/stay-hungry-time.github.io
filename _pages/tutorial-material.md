@@ -314,7 +314,7 @@ nav: false
 </details>
 
 <!-- ===== Section 4: LLM Information Needs and Agentic RAG ===== -->
-<h3>Section 4: LLM Information Needs and Agentic RAG</h3>
+<h3>Section 4: Utility in Agentic RAG</h3>
 
 <details>
 <summary><h4 style="display:inline;">4.2 Query-side Utility</h4></summary>

@@ -35,11 +35,11 @@ Retrieval-Augmented Generation (RAG) has become a foundational paradigm for enha
 This tutorial explores a paradigm shift from relevance-centric to <strong>utility-centric retrieval</strong>, where the value of retrieved information is measured not by its topical match to a query, but by its actual contribution to downstream LLM tasks. We cover:
 </p>
 <ul>
-  <li><strong>Section 1:</strong> Introduction</li>
-  <li><strong>Section 2:</strong> LLM-centric Utility in RAG</li>
-  <li><strong>Section 3:</strong> Utility Modeling and Optimization Methods</li>
-  <li><strong>Section 4:</strong> LLM Information Needs and Agentic RAG</li>
-  <li><strong>Section 5:</strong> Conclusions and Future Directions</li>
+  <li><strong>Section 1:</strong> Introduction & Foundations</li>
+  <li><strong>Section 2:</strong> What Is LLM-Centric Utility?</li>
+  <li><strong>Section 3:</strong> Utility Modeling & Optimization</li>
+  <li><strong>Section 4:</strong> Utility in Agentic RAG</li>
+  <li><strong>Section 5:</strong> Open Problems & Q&A</li>
 </ul>
 <p>
 This tutorial aims to generate broader attention to utility-centric retrieval issues in the LLM era, facilitate an understanding of the relevant literature, and lower the barrier to entry for interested researchers and practitioners.
@@ -113,13 +113,13 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
       <td colspan="3" style="font-weight: bold; text-align: center;">First Half (13:30–15:00)</td>
     </tr>
     <tr>
-      <td>13:30–14:00</td>
-      <td><strong>Section 1:</strong> Introduction</td>
+      <td>13:30–14:10</td>
+      <td><strong>Section 1:</strong> Introduction & Foundations</td>
       <td>Keping Bi</td>
     </tr>
     <tr>
-      <td>14:00–15:00</td>
-      <td><strong>Section 2:</strong> LLM-centric Utility in RAG</td>
+      <td>14:10–15:00</td>
+      <td><strong>Section 2:</strong> What Is LLM-Centric Utility?</td>
       <td>Keping Bi</td>
     </tr>
     <tr>
@@ -132,23 +132,18 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
     </tr>
     <tr>
       <td>15:30–16:10</td>
-      <td><strong>Section 3:</strong> Utility Modeling and Optimization Methods</td>
+      <td><strong>Section 3:</strong> Utility Modeling & Optimization</td>
       <td>Hengran Zhang</td>
     </tr>
     <tr>
-      <td>16:10–16:40</td>
-      <td><strong>Section 4:</strong> LLM Information Needs and Agentic RAG</td>
-      <td>Keping Bi</td>
-    </tr>
-    <tr>
-      <td>16:40–16:50</td>
-      <td><strong>Section 5:</strong> Conclusions and Future Directions</td>
+      <td>16:10–16:50</td>
+      <td><strong>Section 4:</strong> Utility in Agentic RAG</td>
       <td>Keping Bi</td>
     </tr>
     <tr>
       <td>16:50–17:00</td>
-      <td>Q & A</td>
-      <td>All</td>
+      <td><strong>Section 5:</strong> Open Problems & Q&A</td>
+      <td>Keping Bi</td>
     </tr>
   </tbody>
 </table>
