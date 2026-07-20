@@ -26,14 +26,13 @@ nav: false
 <!-- ==================== SLIDES ==================== -->
 <h2 id="slides">Slides</h2>
 
-<!-- TODO: 替换为真实的 slides 链接（上传到 assets/pdf/ 或用 Google Drive 链接） -->
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 15px; padding: 10px 0 30px 0;">
 
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center;">
     <h4 style="margin-bottom: 10px;">Section 1</h4>
-    <p style="font-size: 0.9em; color: #666;">Introduction and Foundations</p>
+    <p style="font-size: 0.9em; color: #666;">Introduction & Foundations</p>
     <p style="margin-top: 10px;">
-      <a href="#" target="_blank">📄 Slides (PDF)</a>
+      <a href="{{ '/assets/pdf/utility_tutorial_sec1.pdf' | relative_url }}" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
@@ -41,31 +40,31 @@ nav: false
     <h4 style="margin-bottom: 10px;">Section 2</h4>
     <p style="font-size: 0.9em; color: #666;">What Is LLM-Centric Utility?</p>
     <p style="margin-top: 10px;">
-      <a href="#" target="_blank">📄 Slides (PDF)</a>
+      <a href="{{ '/assets/pdf/utility_tutorial_sec2.pdf' | relative_url }}" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center;">
     <h4 style="margin-bottom: 10px;">Section 3</h4>
-    <p style="font-size: 0.9em; color: #666;">Utility Modeling and Optimization Methods</p>
+    <p style="font-size: 0.9em; color: #666;">Utility Modeling & Optimization</p>
     <p style="margin-top: 10px;">
-      <a href="#" target="_blank">📄 Slides (PDF)</a>
+      <a href="{{ '/assets/pdf/utility_tutorial_sec3.pdf' | relative_url }}" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center;">
     <h4 style="margin-bottom: 10px;">Section 4</h4>
-    <p style="font-size: 0.9em; color: #666;">LLM Information Needs and Agentic RAG</p>
+    <p style="font-size: 0.9em; color: #666;">Utility in Agentic RAG</p>
     <p style="margin-top: 10px;">
-      <a href="#" target="_blank">📄 Slides (PDF)</a>
+      <a href="{{ '/assets/pdf/utility_tutorial_sec4.pdf' | relative_url }}" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center;">
     <h4 style="margin-bottom: 10px;">Section 5</h4>
-    <p style="font-size: 0.9em; color: #666;">Conclusions and Future Directions</p>
+    <p style="font-size: 0.9em; color: #666;">Open Problems & Q&A</p>
     <p style="margin-top: 10px;">
-      <a href="#" target="_blank">📄 Slides (PDF)</a>
+      <a href="{{ '/assets/pdf/utility_tutorial_sec5.pdf' | relative_url }}" target="_blank">📄 Slides (PDF)</a>
     </p>
   </div>
 
