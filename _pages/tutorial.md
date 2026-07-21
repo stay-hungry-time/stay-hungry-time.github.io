@@ -4,10 +4,12 @@ title: Utility-Centric Retrieval
 title_only: true
 permalink: /utility-tutorial/
 nav: false
+og_image: https://stay-hungry-time.github.io/assets/img/tutorial_logo.png
 ---
 
 <!-- ==================== HEADER ==================== -->
 <div style="text-align: center; padding: 20px 0 40px 0;">
+  <img src="{{ '/assets/img/tutorial_logo.png' | relative_url }}" alt="Utility-Centric Retrieval in the LLM Era" style="max-width: 420px; width: 80%; margin-bottom: 20px;">
   <h1 style="font-size: 2em; margin-bottom: 10px;">Beyond Relevance: Utility-Centric Retrieval in the LLM Era</h1>
   <p style="font-size: 1.2em; color: #666; margin-bottom: 5px;">
     Tutorial at <strong>SIGIR 2026</strong>
