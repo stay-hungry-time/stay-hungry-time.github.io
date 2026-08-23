@@ -163,6 +163,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/wanqing.html";
+            },},{id: "people-xianglei",
+          title: 'Xianglei',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/xianglei.html";
             },},{id: "people-xiaojie",
           title: 'Xiaojie',
           description: "",
@@ -173,6 +178,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/yingqiong.html";
+            },},{id: "people-yucen",
+          title: 'Yucen',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/yucen.html";
             },},{id: "people-yuchen",
           title: 'Yuchen',
           description: "",
