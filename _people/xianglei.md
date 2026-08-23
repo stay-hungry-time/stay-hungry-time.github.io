@@ -1,11 +1,11 @@
 ---
-name: Hanwen Cui
-cname: 崔瀚文
+name: Xianglei Guan
+cname: 官祥磊
 photo: boy.png
-info: Intern 2026-2026
+info: Intern 2026-
 # research_interests:
 #   - TODO
-category: alumni
+category: visiting
 year: 2026
 # TODO:
 # email: bikeping@ict.ac.cn

@@ -1,11 +1,11 @@
 ---
-name: Hanwen Cui
-cname: 崔瀚文
-photo: boy.png
-info: Intern 2026-2026
+name: Yucen Cai
+cname: 蔡雨岑
+photo: girl.png
+info: Intern 2026-
 # research_interests:
 #   - TODO
-category: alumni
+category: visiting
 year: 2026
 # TODO:
 # email: bikeping@ict.ac.cn
