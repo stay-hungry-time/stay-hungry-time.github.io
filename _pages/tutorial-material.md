@@ -28,6 +28,14 @@ nav: false
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 15px; padding: 10px 0 30px 0;">
 
+  <div style="border: 2px solid #3b5998; border-radius: 8px; padding: 15px; text-align: center; background: #f8f9fc;">
+    <h4 style="margin-bottom: 10px;">Full Slides</h4>
+    <p style="font-size: 0.9em; color: #666;">All Sections (complete tutorial)</p>
+    <p style="margin-top: 10px;">
+      <a href="{{ '/assets/pdf/utility_tutorial_full.pdf' | relative_url }}" target="_blank">📄 Slides (PDF, 17MB)</a>
+    </p>
+  </div>
+
   <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; text-align: center;">
     <h4 style="margin-bottom: 10px;">Section 1</h4>
     <p style="font-size: 0.9em; color: #666;">Introduction & Foundations</p>
