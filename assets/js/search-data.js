@@ -356,6 +356,11 @@ ninja.data = [{
           description: "",
           section: "Resources",handler: () => {
               window.location.href = "/resources/utility-tutorial/";
+            },},{id: "resources-linear-transformers-for-efficient-sequence-modeling",
+          title: 'Linear Transformers for Efficient Sequence Modeling',
+          description: "",
+          section: "Resources",handler: () => {
+              window.location.href = "/resources/deltanet/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
