@@ -119,6 +119,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/jingping.html";
+            },},{id: "people-jiying",
+          title: 'Jiying',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jiying.html";
             },},{id: "people-keping",
           title: 'Keping',
           description: "",
