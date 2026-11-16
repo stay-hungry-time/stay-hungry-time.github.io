@@ -44,4 +44,6 @@ jobs:
         with:
           fail: true
           # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --exclude-path _site/utility-tutorial/ --verbose --no-progress '_site/**/*.html'
+          # utility-tutorial and deltanet are self-contained static pages with relative asset
+          # paths that the --remap rule rewrites incorrectly (false positives), so skip them
+          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --exclude-path _site/utility-tutorial/ --exclude-path _site/deltanet/ --verbose --no-progress '_site/**/*.html'
