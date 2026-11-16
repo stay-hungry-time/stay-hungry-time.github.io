@@ -9,7 +9,7 @@ nav: false
 <div style="text-align: center; padding: 10px 0 30px 0;">
   <h1 style="font-size: 1.8em; margin-bottom: 10px;">Tutorial Materials</h1>
   <p style="color: #666;">
-    <strong>Beyond Relevance: Utility-Centric Retrieval in the LLM Era</strong> — SIGIR 2026
+    <strong>Beyond Relevance: Utility-Centric Retrieval in the LLM Era</strong> — SIGIR 2026 and SIGIR-AP 2026
   </p>
   <p>
     <a href="{{ '/utility-tutorial/' | relative_url }}">← Back to Tutorial Home</a>

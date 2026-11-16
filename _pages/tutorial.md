@@ -12,7 +12,10 @@ og_image: https://stay-hungry-time.github.io/assets/img/tutorial_logo.png
   <img src="{{ '/assets/img/tutorial_logo.png' | relative_url }}" alt="Utility-Centric Retrieval in the LLM Era" style="max-width: 420px; width: 80%; margin-bottom: 20px;">
   <h1 style="font-size: 2em; margin-bottom: 10px;">Beyond Relevance: Utility-Centric Retrieval in the LLM Era</h1>
   <p style="font-size: 1.2em; color: #666; margin-bottom: 5px;">
-    Tutorial at <strong>SIGIR 2026</strong>
+    Tutorial at <strong>SIGIR 2026 and SIGIR-AP 2026</strong>
+  </p>
+  <p style="font-size: 1em; color: #888;">
+    📅 TBD &nbsp;|&nbsp; <a href="https://www.sigir-ap.org/sigir-ap-2026" target="_blank">SIGIR-AP 2026</a>
   </p>
   <p style="font-size: 1em; color: #888;">
     📅 Monday, 20 July 2026, 13:30–17:00 &nbsp;|&nbsp; <a href="https://sigir2026.org/en-AU/pages/program/accepted-tutorials" target="_blank">SIGIR 2026</a>
@@ -94,8 +97,15 @@ This tutorial aims to generate broader attention to utility-centric retrieval is
 
 <hr>
 
-<!-- ==================== SCHEDULE ==================== -->
-<h2 id="schedule">Schedule</h2>
+<!-- ==================== SCHEDULE: SIGIR-AP 2026 ==================== -->
+<h2 id="schedule-sigir-ap-2026">Schedule for SIGIR-AP 2026 Tutorial</h2>
+
+<p><em>TBD</em></p>
+
+<hr>
+
+<!-- ==================== SCHEDULE: SIGIR 2026 ==================== -->
+<h2 id="schedule-sigir-2026">Schedule for SIGIR 2026 Tutorial</h2>
 
 <p><em>Format: Half-day (3.5-hour) lecture-style tutorial. Monday, 20 July 2026.</em></p>
 
